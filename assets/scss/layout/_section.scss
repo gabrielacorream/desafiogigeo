@@ -1,0 +1,39 @@
+.title{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;  
+    text-align: center;   
+}
+@media (min-width: 768px) {
+    .title {
+        text-align: left;
+    }
+}
+@media (min-width: 768px){
+    .container {
+    display: flex;
+    justify-content: space-between;   
+}
+}
+.video {
+    margin: 10px;
+    .video__img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .video__title {
+        margin: 0;
+        font-family: $roboto;
+        font-weight: bold;
+    }
+    .video__view {
+        margin: 0;
+        font-size: small;
+        color: $graniteblack; 
+    }
+}
+
+
+
+

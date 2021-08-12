@@ -1,0 +1,13 @@
+.grafiti {
+    background-image: url("../img/image-banner.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;    
+}
+@media (min-width: 768px) {
+    .grafiti {
+        height: 150px;
+        
+    }
+}
